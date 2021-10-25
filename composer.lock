@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73ff008983635e2d7d078e5c6b54cf7f",
+    "content-hash": "1678c90f0e7fb640ee0b458eeb67bdeb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1029,6 +1029,24 @@
                 }
             ],
             "time": "2021-10-02T19:24:42+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/ipanorama-360-virtual-tour-builder-lite",
+            "version": "1.6.22",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ipanorama-360-virtual-tour-builder-lite/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ipanorama-360-virtual-tour-builder-lite.zip?timestamp=1628602289"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ipanorama-360-virtual-tour-builder-lite/"
         }
     ],
     "packages-dev": [
