@@ -23,3 +23,13 @@ a .img-fluid{
 #titreHead .hide{
     display: none!important;
 }
+
+
+/*block Meva et JardinEst*/
+div.wp-block-column{
+    height: 20em!important;
+}
+
+div.wp-block-column>h2{
+    padding-top: 3.5em!important;
+}
