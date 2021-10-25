@@ -1,0 +1,25 @@
+#main-nav {
+    background-color: #104B2F!important;
+}
+
+.ui-accordion-header {
+    background-color: #5bb04b;
+    border: 1px solid #5bb04b;
+}
+
+p #paragraphe1{
+    width: 60%!important;
+}
+
+a .img-fluid{
+    max-width: 20%!important;
+    height: 40px!important;
+}
+
+.navbar-brand{  
+    width: 500px!important;
+}
+
+#titreHead .hide{
+    display: none!important;
+}
