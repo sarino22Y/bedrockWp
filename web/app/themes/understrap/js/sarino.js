@@ -22,8 +22,7 @@ $(function() {
     $("#titreAccueil").click(function(){
         $("#paragraphe1").toggleClass("show hide");
     });
-    $("#paragraphe1").hover(function() {
-        
+    $("#paragraphe1").hover(function() {        
        $(this).animate({
             opacity: 0.9,
             marginLeft: "0.1in",
