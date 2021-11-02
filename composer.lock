@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1678c90f0e7fb640ee0b458eeb67bdeb",
+    "content-hash": "1389568d5898c6b370d237dc6a8ade02",
     "packages": [
         {
             "name": "composer/installers",
@@ -1031,6 +1031,42 @@
             "time": "2021-10-02T19:24:42+00:00"
         },
         {
+            "name": "wpackagist-plugin/branda-white-labeling",
+            "version": "3.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/branda-white-labeling/",
+                "reference": "tags/3.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/branda-white-labeling.3.4.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/branda-white-labeling/"
+        },
+        {
+            "name": "wpackagist-plugin/check-email",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/check-email/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/check-email.1.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/check-email/"
+        },
+        {
             "name": "wpackagist-plugin/ipanorama-360-virtual-tour-builder-lite",
             "version": "1.6.22",
             "source": {
@@ -1047,6 +1083,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ipanorama-360-virtual-tour-builder-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/ninja-forms",
+            "version": "3.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
+                "reference": "tags/3.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.6.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ninja-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/visual-form-builder",
+            "version": "3.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/visual-form-builder/",
+                "reference": "tags/3.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/visual-form-builder.3.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/visual-form-builder/"
         }
     ],
     "packages-dev": [
