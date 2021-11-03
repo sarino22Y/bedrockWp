@@ -21,7 +21,9 @@ if ( is_front_page() ) {
 <div id="contentA" class="container">
     <div id="meva">
         <h2 class="titleC">Projet Meva lotissement</h2>
-        <img id="logoMevaAccueil"src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png" class="img-fluid" alt="Meva">
+        <a id="lienLogoMevaAccueil" href="https://localhost/bedrockWp/bedrockWp/web/accueilmeva/">
+            <img id="logoMevaAccueil" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png">
+        </a>
     </div>
     <div id="jardin">
         <h2 class="titleC">Projet Jardin Est</h2>
@@ -30,6 +32,12 @@ if ( is_front_page() ) {
         </div>
     </div>
 </div>
-
+<div class="container">
+<div class="row" id="ninjaForme">
+<?php 
+    Ninja_Forms()->display(2);
+    ?>
+    </div>
+</div>
 <?php
 get_footer();
