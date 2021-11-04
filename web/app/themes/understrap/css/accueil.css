@@ -1,29 +1,24 @@
 #main-nav {
-    background-color: #F0F0F0!important;
-    height: 90px;
+    background-color: #F2F9F1!important;
+    height: 140px;
 }
 
-.ui-accordion-header {
-    background-color: #5bb04b;
-    border: 1px solid #5bb04b;
-}
 
 a[class='nav-link'],a[class='dropdown-toggle nav-link'],a[class='dropdown-item']{
     color: #104b2f!important;
 }
 
-p #paragraphe1{
-    width: 60%!important;
-}
-
 a .img-fluid{    
-    max-width: 40% !important;
-    height: 60px !important;
-    width: 200px !important;
+    max-width: 100%;
+    max-height: 87px ;
+    width: 287px;
+    min-width: 100.66px;
+    min-height: 50px;
+    vertical-align: super;
 }
 
-.navbar-brand{  
-    width: 500px!important;
+.home #page #main-nav .navbar-brand{  
+    flex: 1 1 0%;
 }
 
 #titreHead .hide{
@@ -49,7 +44,7 @@ div.wp-block-column>h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 420px!important;
+    height: 420px;
     margin-top: 134.033203125px;
 }
 #meva{
@@ -88,7 +83,7 @@ div.wp-block-column>h2{
     display: flex;
 }
 
-#logoMevaAccueil{
+#logoMevaAccueilMT{
     margin-top: 10%;
     flex: 0 0 auto;
 }
@@ -106,30 +101,152 @@ div.wp-block-column>h2{
     font-size: 24px;
     line-height: 29px;
     color: #104B2F;
-    margin: 5px 150px 0px 0px;
-    flex-shrink: 0;
-    flex-grow: 0;
+
+    /*margin: 5px 150px 0px 0px;*/
 }
 
 #ninjaForme{
     justify-content: center;
 }
 
-@media screen and (max-width:518px){
+.home #page #main-nav .navbar-toggler{
+    display: none;
+}
+
+.home #page #main-nav #main-nav-label{
+    display: none;
+}
+
+@media screen and (min-width:601px) and (max-width:767px){
+    #main-nav {
+        background-color: #F2F9F1!important;
+        height: 112px;
+    }
+
+    #textNavbar {
+        font-family: Aileron;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 29px;
+        color: #104B2F;
+    }
+
+    .home #page #main-nav .container{
+        max-width: 100%;
+    }
+    a .img-fluid{    
+        max-width: 100%;
+        max-height: 70px ;
+        width: 287px;
+        min-width: 100.66px;
+        min-height: 60px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:600px){
+    #main-nav {
+        background-color: #F2F9F1!important;
+        height: 112px;
+    }
+
+    .home #page #main-nav .navbar-brand{
+        width: 100px;
+        margin-right: 0;
+
+    }
+
+    .home #page #main-nav .navbar-toggler{
+        display: none;
+    }
+
+    a .img-fluid{  
+        height: 50px;
+        width: 148.66px;
+        min-width: 100px;
+    }
+
     #contentA {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 74px;
+    }
+
+    #meva,#jardin{
+        background: #ffffff;
+        flex: 0 1 auto;
+        margin-right: 5%;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+        max-width: 100%!important;
+        width: 100%!important;
+        /*margin-bottom: 40px;*/
+    }
+    #textNavbar{
+        font-family: Aileron;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 29px;
+        color: #104B2F;
+        margin: 5px 0px 0px 0px;
+        min-width: 221px;
+    }
+
+}
+
+
+@media screen and (max-width:360px){
+    
+    .home #page #main-nav .container{
+        justify-content: center;
         flex-direction: column;
     }
 
-    #meva, #jardin{
-        max-width: 100%!important;
-        width: 100%!important;
+    .home #page #main-nav .navbar-brand{
+        width: 200px;
+        max-width: 200px;
+        margin-right: 0;
+    }
+
+    a .img-fluid {
+        max-width: 100%;
+        height: 60px;
+        width: 200px;
+    }
+
+    #textNavbar{
+        font-family: Aileron;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 29px;
+        color: #104B2F;
+        margin: 5px 0px 0px 0px;
+        min-width: 221px;
+    }
+
+    #contentA {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titleC{
+        display: none;
+    }
+
+    #meva,#jardin {
+        width: 100%;
+        max-width: 100%;
+        min-height: 82px;
+        background: #ffffff;
+        flex: 0 1 auto;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+        margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width:766px){
-    #logoJardinEstAccueil {
-        margin: 0px 20px 0px 20px;
-        text-align: center;
-        color: #104b2f;
-    }
-}
