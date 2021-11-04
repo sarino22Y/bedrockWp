@@ -22,7 +22,7 @@ if ( is_front_page() ) {
     <div id="meva">
         <h2 class="titleC">Projet Meva lotissement</h2>
         <a id="lienLogoMevaAccueil" href="https://localhost/bedrockWp/bedrockWp/web/accueilmeva/">
-            <img id="logoMevaAccueil" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png">
+            <img id="logoMevaAccueilMT" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png">
         </a>
     </div>
     <div id="jardin">
