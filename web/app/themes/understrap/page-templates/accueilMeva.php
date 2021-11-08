@@ -35,7 +35,20 @@ defined( 'ABSPATH' ) || exit;
         </ul>
     </nav>
     <div id="imageAccueilMeva">
+        <div id="etiquetteInfo">
+            <div id="trapezoid">
+                <div class="phrase">Achetez la maison de vos rêves!</div>
+            </div>
+            <div id="infohover" class="">
+                <p class="p1">+Surface 5 hectares</p>
+                <p>+4 village de 164 villas</p> 
+                <p>+Espace vert de 1700m²</p>
+                <p>+A 15 minutes des centres commerciaux de Tanjombato</p>
+                <button>Voir le lotissement</button>
+            </div>
+        </div>
         <img id="imgMaisonMeva"src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u2-1024x484.png" alt="MaisonMeva">
+        <img id="etiquette" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/etiq.png" alt="imageEt">
     </div>
     <div id="etiq">
         <h2>Achetez la maison de vos rêves</h2>
