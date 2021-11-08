@@ -1,0 +1,75 @@
+#headerMeva{
+    background-color: #F2F9F1;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#logoMTAccueil{
+    height: 56px;
+    width: 165px;
+    max-width: 165px;
+    max-height: 56px;
+    flex: 0 1 auto;
+    top: 30px;
+    position: relative;
+    display: flex;
+}
+
+#logoMTAccueil img{
+    max-width: 165px;
+    max-height: 56px;
+}
+
+#headerMevaDefault #page #wrapper-navbar{
+    display: none;
+}
+
+#navMeva{
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#logoMevaAccueil{
+    height: 54px;
+    width: 135px;
+    min-width: 135px;
+    flex: 0 1 auto;
+}
+
+#myNav{
+    flex-direction: row!important;
+    max-width: 700px;
+    width: 700px;
+    justify-content: flex-end;
+}
+
+#myNav li:not(:last-child){
+    margin-right: 50px;
+}
+
+#myNav li a{
+    text-decoration: none;
+    color: #0a4524;
+    font-size: 13px;
+}
+
+#myNav li a:hover{
+    border-bottom: 2px solid #0a4524;
+    padding-bottom: 15px;
+}
+
+
+#myNav li,#myNav li a{
+    flex: 0 1 auto;
+}
+#contentMeva{
+    margin-top: 5%;
+}
+
+#imgMaisonMeva{
+    width:1110px;
+    height: 418px;
+}
