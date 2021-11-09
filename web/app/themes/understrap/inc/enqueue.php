@@ -21,6 +21,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . '/css/theme.min.css', array(), $css_version );
 		wp_enqueue_style( 'understrap-child-styles1', get_stylesheet_directory_uri() . '/css/accueil.css', wp_get_theme()->get('Version') );
 		wp_enqueue_style( 'understrap-child-styles2', get_stylesheet_directory_uri() . '/css/accueilMeva.css', wp_get_theme()->get('Version') );
+		wp_enqueue_style( 'understrap-child-styles3', get_stylesheet_directory_uri() . '/css/nosmodels.css', wp_get_theme()->get('Version') );
 
 		wp_enqueue_script( 'jquery' );
 
@@ -29,6 +30,8 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		wp_enqueue_script( 'understrap-child-scripts1', get_stylesheet_directory_uri() .'/js/accueil.js', array('jquery'), $js_version, true );
 		wp_enqueue_script( 'understrap-child-scripts2', get_stylesheet_directory_uri() .'/js/sarino.js', array('jquery'), $js_version, true );
 		wp_enqueue_script( 'understrap-child-scripts3', get_stylesheet_directory_uri() .'/js/accueilMeva.js', array('jquery'), $js_version, true );
+		wp_enqueue_script( 'understrap-child-scripts4', get_stylesheet_directory_uri() .'/js/nosmodels.js', array('jquery'), $js_version, true );
+		wp_enqueue_script( 'jquery-3.6.0', get_stylesheet_directory_uri() .'/js/jquery-3.6.0.min.js', array('jquery'), '3.6.0', true );
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}

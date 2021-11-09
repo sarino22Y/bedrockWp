@@ -29,7 +29,7 @@
 
 #navMeva{
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #logoMevaAccueil{
@@ -66,7 +66,7 @@
     flex: 0 1 auto;
 }
 #contentMeva{
-    margin-top: 5%;
+    margin-top: 30px;
 }
 
 #imgMaisonMeva{
@@ -89,6 +89,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+}
+
+#trapezoid:hover {
+    cursor: help;
 }
 
 #infohover{
@@ -120,7 +124,18 @@
 
 div .show{
     display: block!important;
+    position: relative;
+    animation-name: animationEtiquette;
+    animation-duration: 1s;  
+    animation-fill-mode: forwards;
 }
+
+@keyframes animationEtiquette {
+    from {bottom: -58px;}
+    to {bottom: 0px;}
+}
+
+
 
 .phrase {
     color:#fff;

@@ -44,13 +44,13 @@ div.wp-block-column>h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 420px;
+    height: 540px;
     margin-top: 134.033203125px;
 }
-#meva{
-    width: 35%;
-    height: 80%;
-    max-width: 35%;
+
+#akanySoa{
+    width: 23.75%;
+    height: 87.5%;
     background: #ffffff;
     flex: 0 1 auto;
     margin-right: 5%;
@@ -58,19 +58,62 @@ div.wp-block-column>h2{
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
+#akanySoa:hover{
+    border: 3px solid #2F1604;
+}
+
+#meva{
+    width: 23.75%;
+    height: 87.5%;
+    background: #ffffff;
+    flex: 0 1 auto;
+    margin-right: 5%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+}
+
+#meva:hover{
+    border: 3px solid #104B2F;
+}
+
 #jardin{
-    width: 35%;
-    height: 80%;
-    max-width: 35%;
+    width: 23.75%;
+    height: 87.5%;
     background: #ffffff;
     flex: 0 1 auto;
     border: 2px solid #FFFFFF;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
-.titleC{
+#jardin:hover{
+    border: 3px solid #041A2F;
+}
+
+.titleAkany{
+    text-align: center;
+    background-color: #2F1604;
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.titleMeva{
     text-align: center;
     background-color: #104B2F;
+    font-family: Aileron;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.titleJardin{
+    text-align: center;
+    background-color: #041A2F;
     font-family: Aileron;
     font-style: normal;
     font-weight: 600;
@@ -91,7 +134,7 @@ div.wp-block-column>h2{
 #logoJardinEstAccueil{
     margin: 80px 20px 0px 20px;
     text-align: center;
-    color: #104b2f;
+    color: #041A2F;
 }
 
 #textNavbar{
@@ -143,11 +186,20 @@ div.wp-block-column>h2{
         min-height: 60px;
     }
 
-    #meva{
-        width: 35%;
-        height: 80%;
+    #akanySoa{
+        width: 23.75%;
+        height: 87.5%;
         max-width: 35%;
-        min-width: 231px;
+        background: #ffffff;
+        flex: 0 1 auto;
+        margin-right: 5%;
+        border: 2px solid #FFFFFF;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    #meva{
+        width: 23.75%;
+        height: 87.5%;
         background: #ffffff;
         flex: 0 1 auto;
         margin-right: 5%;
@@ -156,10 +208,8 @@ div.wp-block-column>h2{
     }
     
     #jardin{
-        width: 35%;
-        height: 80%;
-        max-width: 35%;
-        min-width: 231px;
+        width: 23.75%;
+        height: 87.5%;
         background: #ffffff;
         flex: 0 1 auto;
         border: 2px solid #FFFFFF;
@@ -195,19 +245,20 @@ div.wp-block-column>h2{
         justify-content: center;
         margin-top: 74px;
         margin-bottom: 74px;
+        height: 100%;
     }
 
-    #meva,#jardin{
+    #meva,#jardin,#akanySoa{
         background: #ffffff;
         flex: 0 1 auto;
         margin-right: 0%;
         border: 2px solid #FFFFFF;
         box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
-        max-width: 100%!important;
-        width: 100%!important;
+        max-width: 100%;
+        width: 100%;
     }
 
-    #meva{
+    #akanySoa,#meva{
         margin-bottom: 50px;
     }
 
@@ -266,7 +317,7 @@ div.wp-block-column>h2{
         display: none;
     }
 
-    #meva,#jardin {
+    #meva,#jardin,#akanySoa {
         width: 100%;
         max-width: 100%;
         min-height: 82px;
@@ -279,7 +330,8 @@ div.wp-block-column>h2{
     #logoJardinEstAccueil{
         margin: 0px 0px 0px 0px;
         text-align: center;
-        color: #104b2f;
+        color: #041A2F;
+        font-size: 2rem;
     }
 }
 

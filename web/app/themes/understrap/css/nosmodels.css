@@ -1,0 +1,17 @@
+#blockTitrePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blockTitrePage h1{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #104B2F;
+    border-bottom: 4px solid transparent;
+    border-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/border.png") 4;
+}

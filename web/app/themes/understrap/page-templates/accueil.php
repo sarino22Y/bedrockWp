@@ -18,15 +18,21 @@ if ( is_front_page() ) {
 }
 ?>
 
-<div id="contentA" class="container">
+<div id="contentA" class="container-fluid">
+    <div id="akanySoa">
+        <h2 class="titleAkany">Projet Akany Soa</h2>
+        <a id="lienLogoMevaAccueil" href="https://localhost/bedrockWp/bedrockWp/web/accueilmeva/">
+            <img id="logoMevaAccueilMT" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png">
+        </a>
+    </div>
     <div id="meva">
-        <h2 class="titleC">Projet Meva lotissement</h2>
+        <h2 class="titleMeva">Projet Meva lotissement</h2>
         <a id="lienLogoMevaAccueil" href="https://localhost/bedrockWp/bedrockWp/web/accueilmeva/">
             <img id="logoMevaAccueilMT" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/logomeva-1024x410.png">
         </a>
     </div>
     <div id="jardin">
-        <h2 class="titleC">Projet Jardin Est</h2>
+        <h2 class="titleJardin">Projet Jardin Est</h2>
         <div class="container">
             <h1 id="logoJardinEstAccueil">Logo Projet Jardin Est</h1>
         </div>

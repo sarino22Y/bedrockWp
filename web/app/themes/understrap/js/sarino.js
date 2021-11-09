@@ -5,6 +5,7 @@ $(function() {
     $('.wp-block-button>a').click(function(){
         $(".entry-title").hide();
     });
+
     $("#accordion").accordion();   
         $("#accordion").append("<br><p>Date: <input></p>");
         $("#accordion p>input").attr({id:"datepicker",type:'text'});
@@ -30,4 +31,5 @@ $(function() {
             color : "rgb(16, 75, 47)"
         },5000);
     });
+
 });
