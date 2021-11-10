@@ -45,39 +45,8 @@ defined( 'ABSPATH' ) || exit;
         <img id="imgMaisonMeva"src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u2-1024x484.png" alt="MaisonMeva">
         <img id="etiquette" src="https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/etiq.png" alt="imageEt">
     </div>
-    <div id="blocknosmodeles" class="container_fluid">
-        <h1 id="pagemodeles" class="titreblocs">Nos modèles</h1>
-        <div id="blocPavillons" class="container-fluid">
-            <div id="pavillonsAvaratra"></div>
-            <div id="pavillonsAtsimo"></div>
-        </div>
-    </div>
-    <div id="blockplanlotissement" class="container_fluid">
-        <h1 id="pageLotissement" class="titreblocs">Plan de lotissement</h1>
-        <div id="contentlotissement" class="container-fluid">
-            <div id="planAvaratra"></div>
-            <div id="descriptionAtsimo">
-                <h1>Imerimanjaka, <br/>un lieu de bon vivre</h1>
-                <p>Situé au sud de la Capitale, Imerimanjaka est un village de caractère qui a su préserver son âme en conjuguant son passé à ses envies de modernité sur un terrain encore vierge qui pourrait accueillir nos ambitions.</p>
-                <p>Découvrez un magnifique lotissement résidentiel dans un environnement sécurisé et convivial, et un cadre panoramique avec vue sur Antananarivo</p>
-                <div class="legendeLotissement">
-                    <div id="lotReserve"></div>
-                    <p>Lot réservé</p>
-                </div>
-                <div class="legendeLotissement">
-                    <div id="lotVendu"></div>
-                    <p>Lot vendu</p>
-                </div>
-                <div class="legendeLotissement">
-                    <div id="legendeAvaratra"></div>
-                    <p>Pavillon Avaratra / Surface habitable = 70 à 86 m² -<br/>parking - jardin de 15 m² - un espace courette</p>
-                </div>
-                <div class="legendeLotissement">
-                    <div id="legendeAtsimo"></div>
-                    <p>Pavillon Atsimo / Surface habitable = 70 à 86 m² -<br/>parking - un jardin en façade - un espace courette en arrière</p>
-                </div>
-            </div>
-        </div>
+    <div id="etiq">
+        <h2>Achetez la maison de vos rêves</h2>
     </div>
 </div>
 
