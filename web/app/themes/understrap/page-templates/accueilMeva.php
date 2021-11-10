@@ -24,9 +24,9 @@ defined( 'ABSPATH' ) || exit;
         </a>
         <ul class="nav navbar-nav" id="myNav"> 
             <li><a href="https://localhost/bedrockWp/bedrockWp/web/nos-modeles/">Nos modèles</a></li>
-            <li><a href="#">Plan de lotissement</a></li>
-            <li><a href="#">Accès</a></li>
-            <li><a href="#">Contactez-nous</a></li>
+            <li><a href="#blockplanlotissement">Plan de lotissement</a></li>
+            <li><a href="#blockacces">Accès</a></li>
+            <li><a href="#contactfluid">Contactez-nous</a></li>
         </ul>
     </nav>
     <div id="imageAccueilMeva">
@@ -77,6 +77,34 @@ defined( 'ABSPATH' ) || exit;
                     <p>Pavillon Atsimo / Surface habitable = 70 à 86 m² -<br/>parking - un jardin en façade - un espace courette en arrière</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="blockacces" class="container_fluid">
+        <h1 id="pageAcces" class="titreblocs">Accès</h1>
+        <div id="contentAcces" class="container-fluid">
+            <div id="AccesAvaratra"></div>
+            <div id="descriptionAtsimo">
+                <p>Le lotissement se trouve à 1 km du By Pass à Imerimanjaka en bordure de la route goudronnée d'Ambohijanaka.</p>
+                <p>Dans un environnement calme, en très fort développement, MEVA est à 15 minutes des centres commerciaux de Tanjombato et à 2 minutes du Lycée Peter Pan.</p>
+                <p>Le site sera aménagé en un parc arboré avec des cheminements piétons, une piste cyclable, des éclairages et des places de parking qui valorisent les futures construction</p>
+                <button>Voir le lotissement</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id ="contactfluid">
+    <div id="blockcontact">
+    <h1 id="pageContact" class="titreblocs">Contact</h1>
+        <div id="contentcontact" class="container-fluid">
+            <?php 
+                Ninja_Forms()->display(2);
+            ?>
+        </div>
+        <div id="coordonees" class="container-fluid">
+            <h1 id="titreCoordonnees" class="">Coordonées</h1>
+            <p id="coordonneesTel">+261 34 34 034 34</p>
+            <p id="coordonneesMail">contact.mevalot@solidis.com</p>
         </div>
     </div>
 </div>

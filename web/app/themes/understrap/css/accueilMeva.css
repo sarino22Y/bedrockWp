@@ -304,3 +304,108 @@ div .show{
     margin-right: 25.4px;
     margin-bottom: 24px;
 }
+
+/*bloc Accès*/
+
+#blockacces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 162px;
+}
+
+#contentacces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#accesAvaratra{
+    width: 626px;
+    height: 706px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u92.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-right: 36px;
+}
+
+#descriptionAtsimo button{
+    width: 201px;
+    height: 50;
+    background: #104B2F;
+    color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    margin-top: 36px;
+}
+
+/*bloc Contact*/
+
+#blockcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 162px;
+}
+
+#contentcontact{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/bg_contact.png");
+}
+
+#wrapper-footer,#nf-form-title-2,.nf-form-fields-required{
+    display: none;
+}
+
+.nf-form-content{
+    width: 780px;
+}
+
+#coordonees{
+    height: 139px;
+    width: 100%;
+    margin-bottom: 0px;
+    background: #FCE8D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#coordonees #titreCoordonnees{
+    background-color: transparent;
+    width: 171px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center  ;
+    line-height: 29px;
+    color: #2F1604;
+    margin-top: 18px;
+    border-bottom: 4px solid transparent;
+    border-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/border_coordonnees.png") 4;
+}
+
+#coordonees p{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2F1604;
+}
+
+#coordonees #coordonneesTel{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#coordonees #coordonneesMail{
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
