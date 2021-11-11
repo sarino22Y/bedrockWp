@@ -156,3 +156,256 @@ div .show{
     width: 160px;
     margin-top: 270px;
 }
+
+/*nos modèles*/
+
+#blocknosmodeles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 61px;
+}
+
+.titreblocs{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #104B2F;
+    border-bottom: 4px solid transparent;
+    border-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/border.png") 4;
+    margin-bottom: 43px;
+}
+
+#blocPavillons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#pavillonsAvaratra{
+    width: 530px;
+    height: 410px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pavillonsAtsimo{
+    width: 530px;
+    height: 410px;
+    background-image:url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/Broch-Meva-Lotissement-A5-3D-1-light.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*bloc Plan de lotissement*/
+
+
+#blockplanlotissement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 162px;
+}
+
+#contentlotissement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#planAvaratra{
+    width: 626px;
+    height: 706px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u50.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-right: 36px;
+}
+
+#descriptionAtsimo{
+    width: 449px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+#descriptionAtsimo h1{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F1604;
+}
+
+#descriptionAtsimo p{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2F1604;
+}
+
+#descriptionAtsimo .legendeLotissement{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#descriptionAtsimo .legendeLotissement p{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F1604;
+    display: contents;
+}
+
+#descriptionAtsimo .legendeLotissement #lotReserve{
+    width: 35px;
+    height: 35px;
+    background: rgba(47, 22, 4, 0.5);
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+#descriptionAtsimo .legendeLotissement #lotVendu{
+    width: 35px;
+    height: 35px;
+    background: rgba(170, 17, 17, 0.6);
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+#descriptionAtsimo .legendeLotissement #legendeAvaratra{
+    width: 19px;
+    height: 35px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/legendeAvaratra.png");
+    margin-right: 22px;
+    margin-bottom: 24px;
+}
+
+#descriptionAtsimo .legendeLotissement #legendeAtsimo{
+    width: 15.6px;
+    height: 26px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/legendeAtsimo.png");
+    margin-right: 25.4px;
+    margin-bottom: 24px;
+}
+
+/*bloc Accès*/
+
+#blockacces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 162px;
+}
+
+#contentacces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#accesAvaratra{
+    width: 626px;
+    height: 706px;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/u92.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-right: 36px;
+}
+
+#descriptionAtsimo button{
+    width: 201px;
+    height: 50;
+    background: #104B2F;
+    color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    margin-top: 36px;
+}
+
+/*bloc Contact*/
+
+#blockcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 162px;
+}
+
+#contentcontact{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/bg_contact.png");
+}
+
+#wrapper-footer,#nf-form-title-2,.nf-form-fields-required{
+    display: none;
+}
+
+.nf-form-content{
+    width: 780px;
+}
+
+#coordonees{
+    height: 139px;
+    width: 100%;
+    margin-bottom: 0px;
+    background: #FCE8D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#coordonees #titreCoordonnees{
+    background-color: transparent;
+    width: 171px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center  ;
+    line-height: 29px;
+    color: #2F1604;
+    margin-top: 18px;
+    border-bottom: 4px solid transparent;
+    border-image: url("https://localhost/bedrockWp/bedrockWp/web/app/uploads/2021/11/border_coordonnees.png") 4;
+}
+
+#coordonees p{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #2F1604;
+}
+
+#coordonees #coordonneesTel{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#coordonees #coordonneesMail{
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
